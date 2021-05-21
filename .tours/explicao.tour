@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Explicação",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "Certifique-se de e entender o README. Aqui estão todas as instruções.",
+      "line": 3
+    },
+    {
+      "file": "README.md",
+      "description": "Preste atenção ao link do GitHub Classroom. Clicando nele o repositório base da atividade será criado para seu usuário, isto é, se houver uma `ava-00-hello-world` e seu usuário é `joaolucasneto`, clicando no link será criado um `ava-00-hello-world-joaolucasneto`. Este será o repositório que usarás para clonar e subir sua atividade.",
+      "line": 7
+    },
+    {
+      "file": "README.md",
+      "description": "Note que são mencionados e linkados arquivos. O código-fonte estará disponível sempre na pasta [src](src/). E as instruções no [README.md](README.md).",
+      "line": 9
+    },
+    {
+      "file": "src/App.java",
+      "description": "Todo projeto possui uma classe principal, geralmente chamada `App.java`, mas que poderia ser `Main.java` ou outro nome. Sempre execute o projeto a partir desta classe.",
+      "line": 2
+    },
+    {
+      "file": "src/App.java",
+      "description": "A classe principal possui o método principal `main()`. Este método é obrigatório para que o programa funcione.",
+      "line": 3,
+      "selection": {
+        "start": {
+          "line": 3,
+          "character": 1
+        },
+        "end": {
+          "line": 4,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "src/App.java",
+      "description": "No caso desta atividade, altere aqui, por exemplo:\n\n```java\nSystem.out.println(\"Eita, foi!!\");\n```",
+      "line": 4,
+      "selection": {
+        "start": {
+          "line": 4,
+          "character": 5
+        },
+        "end": {
+          "line": 4,
+          "character": 38
+        }
+      }
+    }
+  ]
+}
